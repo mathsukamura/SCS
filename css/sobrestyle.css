@@ -1,0 +1,84 @@
+.Sobre{
+    position: relative;
+    width: 100%;
+    height: 543px;
+    background-color: #EBEFF2;
+}
+.sobre-section {
+    position: relative;
+    z-index: 0;
+    padding: 25%;
+    background-color: #EBEFF2;
+    text-align: center;
+  
+  }
+
+  #img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .quadrado-com-efeito {
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(139 149 151 / 8%), rgb(42 52 55 / 74%), rgb(27 35 37 / 67%));
+    backdrop-filter: blur(3px);
+    position: absolute;
+    overflow: hidden;
+    top: 0%;
+    filter: blur(2px);
+    right: 0%;
+    display: flex;
+}
+
+.Mustang {
+  color: #ffffff;
+  text-align: right;
+  font-size: 55px;
+  margin-right: 163px;
+  margin-top: 60px;
+}
+.conteudo {
+  margin-right: 163px;
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 20%;
+  right: -10%;
+  flex-direction: column;
+  display: flex;
+}
+
+.descricao {
+  font-size: 21px;
+  font-weight: 5px;
+  line-height: 168%;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+  padding: 177px;
+  font-weight: lighter;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.conteudo a {
+  display: block;
+  background-color: rgba(0, 123, 255, 0);
+  color: rgb(220, 220, 220);
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 0px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease 0s;
+  border-style: solid;
+  border-width: thin;
+  font-size: 17px;
+  width: 404px;
+  margin-left: 35%;
+}
