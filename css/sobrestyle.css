@@ -41,20 +41,19 @@
   text-align: right;
   font-size: 55px;
   margin-right: 163px;
-  margin-top: 60px;
+  margin-top: 213px;
 }
 .conteudo {
-  margin-right: 163px;
   position: absolute;
   width: 60%;
   height: 100%;
-  top: 20%;
-  right: -10%;
+  top: 0%;
+  right: 0%;
   flex-direction: column;
   display: flex;
 }
 
-.descricao {
+.descricao, .bottom {
   font-size: 21px;
   font-weight: 5px;
   line-height: 168%;
@@ -65,6 +64,7 @@
   font-weight: lighter;
   padding-top: 0px;
   padding-bottom: 30px;
+  padding-right: 163px;
 }
 
 .conteudo a {
@@ -80,5 +80,56 @@
   border-width: thin;
   font-size: 17px;
   width: 404px;
-  margin-left: 35%;
+  float: right;
+}
+
+@media (max-width: 1324px){
+
+  .Mustang {
+    color: #ffffff;
+    text-align: right;
+    font-size: 5vw;
+    margin-right: 163px;
+    margin-top: 1vw;
+  }
+  .conteudo {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    top: 0%;
+    right: 0%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .descricao, .bottom {
+    display: block;
+    font-size: 1.5vw;
+    font-weight: 5px;
+    line-height: 168%;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+    padding: 177px;
+    font-weight: lighter;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-right: 163px;
+  }
+
+  .conteudo a {
+    display: block;
+    background-color: rgba(0, 123, 255, 0);
+    color: rgb(220, 220, 220);
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 0px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease 0s;
+    border-style: solid;
+    border-width: thin;
+    font-size: 17px;
+    width: 27vw;
+    float: right;
+  }
 }
